@@ -1,40 +1,36 @@
-# operasi logika atau boolean
+# Operasi Logika atau Boolean
 
-# not, or, and
+# Operator: NOT, OR, AND
 
-#Not
-print("====NOT====")
+# NOT
+print("==== NOT ====")
 a = False
 c = not a
-print("data a = ", a)
-print("------------------NOT")
-print("data c = ", c)
+print("Data a =", a)
+print("------------------ NOT")
+print("Data c =", c)
 
-# OR (jika salah satu, hasilnya akan true)
-print("====OR====")
+# OR (jika salah satu True, hasilnya akan True)
+print("\n==== OR ====")
 a = False
 b = False
-c = a or b 
-print(a, "OR" , b, "=" , c)
+c = a or b
+print(a, "OR", b, "=", c)
 a = True
 b = False
 c = a or b
-print(a, "OR" , b, "=" , c)
+print(a, "OR", b, "=", c)
 a = False
 b = True
 c = a or b
-print(a, "OR" , b, "=" , c)
-
-#AND
-print("====AND====")
-a = False
-c = not a
-print("data a = ", a)
-print("------------------AND")
-print("data c = ", c)
+print(a, "OR", b, "=", c)
+a = True
+b = True
+c = a or b
+print(a, "OR", b, "=", c)
 
 # AND (keduanya harus True agar hasilnya True)
-print("====AND====")
+print("\n==== AND ====")
 a = False
 b = False
 c = a and b

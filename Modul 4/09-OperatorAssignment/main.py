@@ -1,46 +1,53 @@
-# opersi assignment adalah operasi yang dapat dilakukan dengan meringkas 
-# operasi ditambah dengan assignment
+# Operasi Assignment
+# Operasi assignment adalah operasi yang dapat meringkas operasi matematika/logika 
+# dengan menambahkan assignment (penugasan).
 
-a= 5 # assignment # tidak memakan memory karena dia literal (gak ada variabelnya)
-print("nilai a = ", a)
+# Contoh awal assignment
+a = 5  # Assignment awal
+print("Nilai a =", a)
 
-a += 1 # artinya a = a += 1
-print("nilai a += 1, nilai a menjadi = ", a)
+# Operasi assignment dengan penjumlahan
+a += 1  # Sama dengan a = a + 1
+print("Nilai a += 1, nilai a menjadi =", a)
 
-a -= 1 # artinya a = a -= 1
-print("nilai a -= 1, nilai a menjadi = ", a)
+# Operasi assignment dengan pengurangan
+a -= 1  # Sama dengan a = a - 1
+print("Nilai a -= 1, nilai a menjadi =", a)
 
-a *= 5 # artinya a = a *= 5
-print("nilai a *= 5, nilai a menjadi = ", a)
+# Operasi assignment dengan perkalian
+a *= 5  # Sama dengan a = a * 5
+print("Nilai a *= 5, nilai a menjadi =", a)
 
-a /= 5 # artinya a = a /= 5
-print("nilai a /= 5, nilai a menjadi = ", a)
+# Operasi assignment dengan pembagian
+a /= 5  # Sama dengan a = a / 5
+print("Nilai a /= 5, nilai a menjadi =", a)
 
-# modulus dan floordivision
-# %=, //=
-a %= 3 # artinya a = a %= 5
-print("nilai a %= 5, nilai a menjadi = ", a)
+# Operasi modulus
+a %= 3  # Sama dengan a = a % 3
+print("Nilai a %= 3, nilai a menjadi =", a)
 
-a //= 1 # artinya a = a //= 5
-print("nilai a //= 5, nilai a menjadi = ", a)
+# Operasi floor division
+a //= 1  # Sama dengan a = a // 1
+print("Nilai a //= 1, nilai a menjadi =", a)
 
-# pangkat / eksponen
-# **=
-a **= 10 # artinya a = a //= 5
-print("nilai a //= 5, nilai a menjadi = ", a)
+# Operasi eksponen (pangkat)
+a **= 10  # Sama dengan a = a ** 10
+print("Nilai a **= 10, nilai a menjadi =", a)
 
-# operasi logika
+# Operasi Logika
+# Operasi logika dengan assignment
 
-# or
+# OR (|)
 c = True
-print("nilai c = ", c)
-c |= False # artinya c = or false 
-print("nilai c |= False, menjadi c = ", c)
-c = True # artinya c = or true
-print("nilai c |= True, menjadi c = ", c)
-
-# and
+print("Nilai c =", c)
+c |= False  # Sama dengan c = c or False
+print("Nilai c |= False, menjadi c =", c)
 c = True
-print("nilai c = ", c)
-c &= False # artinya c = and false
-print("nilai c &= False, menjadi c = ", c)
+c |= True  # Sama dengan c = c or True
+print("Nilai c |= True, menjadi c =", c)
+
+# AND (&)
+c = True
+print("Nilai c =", c)
+c &= False  # Sama dengan c = c and False
+print("Nilai c &= False, menjadi c =", c)
